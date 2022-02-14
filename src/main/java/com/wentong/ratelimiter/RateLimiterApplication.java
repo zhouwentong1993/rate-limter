@@ -1,13 +1,13 @@
-package com.wentong.ratelimter;
+package com.wentong.ratelimiter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RateLimterApplication {
+public class RateLimiterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RateLimterApplication.class, args);
+        SpringApplication.run(RateLimiterApplication.class, args);
     }
 
 }
